@@ -1,3 +1,8 @@
+# Finger exercise: What would have to be changed to make the code
+# in Figure 3-5 work for finding an approximation to the cube root of
+# both negative and positive numbers? Hint: think about changing low
+# to ensure that the answer lies within the region being searched.
+
 x = int(input('enter number: '))
 epsilon = 0.01
 num_guesses = 0

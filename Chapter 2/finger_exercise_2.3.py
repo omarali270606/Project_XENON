@@ -1,3 +1,7 @@
+# Finger exercise: Write a program that examines three variables—
+# x, y, and z—and prints the largest odd number among them. If none
+# of them are odd, it should print the smallest value of the three.
+
 x,y,z = 3,6,9
 highest_odd = None
 if x%2==1:
