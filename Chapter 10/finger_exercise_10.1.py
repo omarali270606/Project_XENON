@@ -61,9 +61,12 @@ class Int_set(object):
     #     elemnts in self
     #     plus the elements in other."""
     #     for element in other.get_members():
-    #         if not self.member():
-    #             self._vals.append(element)
+    #         self.insert(element)
     
+#     Finger exercise: Replace the union method you added to Int_set
+# by a method that allows clients of Int_set to use the + operator to
+# denote set union.
+
     def __add__(self, other):
         result = Int_set()
 
